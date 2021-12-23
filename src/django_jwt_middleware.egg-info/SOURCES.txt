@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_jwt_middleware/__init__.py
+src/django_jwt_middleware/source.py
+src/django_jwt_middleware.egg-info/PKG-INFO
+src/django_jwt_middleware.egg-info/SOURCES.txt
+src/django_jwt_middleware.egg-info/dependency_links.txt
+src/django_jwt_middleware.egg-info/top_level.txt
