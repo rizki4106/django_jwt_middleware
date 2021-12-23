@@ -1,8 +1,8 @@
 # django_jwt_middleware
 
-`django_jwt_middleware` is a lightweight package used for create authorized request with jsonwebtoken on your function view
+`django_jwt_middleware` is a package used for authorize django request with JSON Web Tokens
 
-## Installation
+## 1. Installation
 
 ```bash
 pip3 install django_jwt_middleware
@@ -16,7 +16,7 @@ git clone https://github.com/rizki4106/django_jwt_middleware.git
 
 <hr/>
 
-## Example
+## 2. Example
 
 ### with http cookie
 
@@ -65,3 +65,10 @@ def hello_world(request):
 | header_name | string | name of header that store your jwt token |
 | jwt_key | string | jsonwebtoken secret key |
 | algoritm | string | algorithm to decoded your jwt key default is HS256 |
+
+## 3. Response
+
+| Type    | Description                                        |
+| ------- | -------------------------------------------------- |
+| success | Will continue to request destination               |
+| failed  | Return http status code 403 with the message in it |
