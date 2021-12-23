@@ -74,3 +74,12 @@ def hello_world(request):
 | ------- | -------------------------------------------------- |
 | success | Will continue to request destination               |
 | failed  | Return http status code 403 with the message in it |
+
+## 4. Discovered Problems
+
+if you get error and it said `jwt has no attribute decode` try this command
+
+```bash
+pip3 uninstall pyjwt
+pip3 install pyjwt
+```
