@@ -1,2 +1,1 @@
-from django_jwt_middleware.source import verify_jwt_cookie
-from django_jwt_middleware.source import verify_jwt_header
+from django_jwt_middleware.source import middleware
